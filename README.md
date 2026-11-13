@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Manish 👋</h1>
 <p align="center">
-  <b>Engineering Leader · Solutions Architect · Agentic AI Builder</b><br/>
-  13+ years building platforms across Insurance, FinTech & Telecom · Delhi NCR, India
+  <b>Senior Engineering Manager · Platform Architecture · AWS · GenAI</b><br/>
+  12+ years building platforms across Insurance, FinTech & Telecom · Delhi NCR, India
 </p>
 
 <p align="center">
@@ -14,7 +14,8 @@
 ### 🧭 About me
 
 - 🏗️ Most recently **Senior Engineering Lead at Tata AIG General Insurance**, leading architecture and engineering for a digital servicing platform
-- 👥 **6+ years of people management** — led a team of 14 engineers, owned hiring plans and managed vendor teams
+- 👥 **6 years of people management** — led up to 14 engineers on a platform serving 10M+ monthly transactions; owned hiring, performance and vendor teams
+- 📈 Grew self-service adoption from ~40% to ~86%, cut CloudWatch spend 37% and MongoDB query latency ~40%
 - 🤖 Building **agentic AI systems** with LangGraph & TypeScript — multi-agent orchestration, RAG, PII-safe pipelines
 - 🎓 Alumnus of **ISB's Strategic Digital Leadership Programme (SDLP)**, 2026
 - 🔭 Open to **Staff / Principal Engineer, Engineering Manager and Solutions Architect** roles
@@ -25,8 +26,10 @@
 
 | Project | What it does | Built with |
 |---|---|---|
-| **Concierge** — agentic email orchestration | Seven-agent pipeline that handles inbound insurance emails end to end: PII masking → intent classification → knowledge-base resolution → API execution → response or human handoff | LangGraph, TypeScript, MongoDB |
-| **PII Masking Service** | Role-based masking/unmasking with a two-signal detection engine (key-name aliases + value patterns), configurable confidence and record-level ABAC | Node.js, TypeScript, Express, Redis |
+| **Concierge** — AI servicing orchestration | Handles ~30,000 servicing emails/month: intent classification → MongoDB rule lookup → API orchestration → LLM-drafted response | LangGraph, TypeScript, MongoDB |
+| **Claims-document classifier** | Production document classification across claim types and lines of business | Gemma (Ollama), Atlas Vector Search, LangGraph |
+| [**policy-tracer**](https://github.com/bagwari/policy-tracer) | Agentic AI workflow for insurance policy investigation and CloudWatch log tracing | TypeScript |
+| [**pii-masking**](https://github.com/bagwari/pii-masking) | Role-based masking/unmasking with a two-signal detection engine (key-name aliases + value patterns), configurable confidence and record-level ABAC | Node.js, TypeScript, Express, Redis |
 | **Multi-tenant SSO Platform** | OAuth2 + OIDC authentication with Redis-backed token management, Kafka audit streaming and distributed logout | Node.js, Redis, Kafka |
 | **IECC** — Insurance Exception Command Center | AI-driven orchestration for complex insurance exceptions — IRDAI TAT compliance, Bima Bharosa escalations, Ombudsman cases | Node.js, TypeScript, React |
 | **CareOS** — AI elder-care monitoring | Detects falls, anomalies and wandering from home CCTV using pose estimation, an explainable rules engine and privacy-first skeletal keypoints | TensorFlow.js (MoveNet), React, Vite, Tailwind |
@@ -77,7 +80,14 @@
 
 ### 💼 Experience
 
-**Tata AIG General Insurance** · Senior Engineering Lead &nbsp;|&nbsp; **Hitachi Vantara** &nbsp;|&nbsp; **Mphasis** &nbsp;|&nbsp; **Infosys**
+| Company | Role | When |
+|---|---|---|
+| Tata AIG General Insurance | Senior Engineering Lead | Nov 2022 – Nov 2026 |
+| Hitachi Vantara | Senior Consultant | Sep 2021 – Nov 2022 |
+| Mphasis | Senior Software Engineer | May 2019 – Aug 2021 |
+| Infosys | Technology Analyst | Dec 2016 – May 2019 |
+
+🏅 MongoDB Associate Atlas Administrator · Agentic AI (DeepLearning.AI) · Machine Learning Specialization (Coursera)
 
 ---
 
