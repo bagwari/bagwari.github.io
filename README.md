@@ -25,7 +25,7 @@
 
 | Project | What it does | Built with |
 |---|---|---|
-| **UnifyAI** — agentic email orchestration | Seven-agent pipeline that handles inbound insurance emails end to end: PII masking → intent classification → knowledge-base resolution → API execution → response or human handoff | LangGraph, TypeScript, MongoDB |
+| **Concierge** — agentic email orchestration | Seven-agent pipeline that handles inbound insurance emails end to end: PII masking → intent classification → knowledge-base resolution → API execution → response or human handoff | LangGraph, TypeScript, MongoDB |
 | **PII Masking Service** | Role-based masking/unmasking with a two-signal detection engine (key-name aliases + value patterns), configurable confidence and record-level ABAC | Node.js, TypeScript, Express, Redis |
 | **Multi-tenant SSO Platform** | OAuth2 + OIDC authentication with Redis-backed token management, Kafka audit streaming and distributed logout | Node.js, Redis, Kafka |
 | **IECC** — Insurance Exception Command Center | AI-driven orchestration for complex insurance exceptions — IRDAI TAT compliance, Bima Bharosa escalations, Ombudsman cases | Node.js, TypeScript, React |
